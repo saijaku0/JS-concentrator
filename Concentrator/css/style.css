@@ -1,0 +1,87 @@
+
+.board-container{
+  /*background-color: blue;*/
+  height: 255px;
+  width: 370px;
+}
+.board-container .row{
+  height: 100%;
+}
+.board-square{
+  border: 1px solid white;
+  height: 25%;
+  padding: 0;
+  overflow: hidden;
+}
+.face-container{
+  background-color: blue;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  position: absolute;
+  transition: 400ms;
+}
+.facedown, .faceup{
+  height: 50%;
+}
+.facedown{
+  background-color: lightGray;
+}
+.faceup{
+  background-color: coral;
+}
+.flipped .face-container{
+  top: -100%;
+}
+.color-0{
+  background-color: aqua;
+}
+.color-1{
+  background-color: bisque;
+}
+.color-2{
+  background-color: blue;
+}
+.color-3{
+  background-color: blueviolet;
+}
+.color-4{
+  background-color: brown;
+}
+.color-5{
+  background-color: cadetblue;
+}
+.color-6{
+  background-color: chartreuse;
+}
+.color-7{
+  background-color: coral;
+}
+.color-8{
+  background-color: DeepPink;
+}
+.color-9{
+  background-color: Tomato;
+}
+.color-10{
+  background-color: Orange;
+}
+.color-11{
+  background-color: Yellow;
+}
+.color-12{
+  background-color: Chocolate;
+}
+.color-13{
+  background-color: Crimson;
+}
+.color-14{
+  background-color: forestgreen;
+}
+.color-15{
+  background-color: red;
+}
+#reset-button{
+  margin: 135px auto 0;
+  width: 370px;
+}
